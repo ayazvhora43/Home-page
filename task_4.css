@@ -1,0 +1,555 @@
+.main_div{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/nav_img.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li{
+    padding-right: 4px;
+}
+
+.navbar{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.144);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar-brand{ 
+    color: white !important;
+    font-size: 1.5rem;
+    position: relative;
+    right: -20vw;
+}
+
+.nav-link{
+    font-size: 12px;
+    color: white !important;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.fa-shopping-cart{
+    padding-left: 23px !important;
+}
+
+.fa-search{
+    color: white !important;
+    padding-left: 15px !important;
+}
+
+.rounded-3{
+    border-radius: 12px;
+    background: linear-gradient( rgba(255, 255, 255, 0.144), rgba(255, 255, 255, 0.13) );
+    position: relative;
+    left:80%;
+    padding: 8px 24px !important;
+    font-size: 13px;
+} 
+
+.badge{
+    font-size: 10px;
+}
+
+.img_text{
+    height: 100%;
+    position: relative;
+    top: 40%;
+}
+
+.img_text p{
+    font-weight:light;
+    font-size: 3rem;
+    color: white;
+} 
+
+.img_text small{
+    color: white;
+}
+
+.div2{
+    background: url("images/bg_div2.webp") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.div2_text{
+    padding: 100px 0 100px 250px;
+}
+
+.div2_text small,
+.trusted_text,
+.projects small{
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+}
+
+.div2_heading, .div3_heading,.projects p{
+    display: block;
+    font-size: 1.5rem;
+    color: #020733;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.div2_text p, .div3_text p{
+    font-size: 14px;
+    color: rgb(112, 122, 155);
+}
+
+.div2_img1{
+    position: relative;
+    top: 10%;
+    right: 20%;
+}
+
+.div2_img2{
+    position: relative;
+    top: 20%;
+    left:30%
+}
+
+.col-md-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    background: #e4e2e2;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.div3_box{
+    padding: 100px 0 100px 150px !important; 
+}
+
+.list-group-item {
+    width: 350px;
+    margin-bottom: 20px;
+    box-shadow:  inset 0 -3em 2em rgba(142, 144, 250, 0.1),
+                       0.3em 0.3em 0.5em rgba(136, 145, 235, 0.3);;
+    border-radius: 5px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.box2{
+    margin-left: 80px;
+}
+
+.icons_text{
+    padding: 0 20px;
+}
+
+.fa-line-chart{
+    font-size: 20px;
+    color: rgb(93, 93, 250);
+    padding: 15px ;
+    margin: 10px 0 5px 10px ;
+    background-color: rgb(205, 255, 222);
+    border-radius: 50%;
+}
+.fa-university{
+    font-size: 20px;
+    color: rgb(250, 173, 101);
+    padding: 15px ;
+    margin: 10px 0 5px 10px ;
+    background-color: rgb(252, 229, 229);
+    border-radius: 50%;
+}
+
+.fa-envelope{
+    font-size: 20px;
+    color: rgb(58, 255, 124);
+    padding: 15px ;
+    margin: 10px 0 5px 10px ;
+    background-color: rgb(205, 255, 222);
+    border-radius: 50%;
+}
+.div3_text{
+    padding: 100px 250px 100px 0;
+}
+.div3_text small{
+    font-size: 12px;
+    color: rgb(99, 139, 250);
+}
+.projects {
+    padding: 60px 0 60px 150px !important;
+}
+.app_div{
+    background: linear-gradient( #60A9F9, #3876E7 ) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.app_div_text{
+    padding-left: 40px;
+}
+
+.app_div p{
+    color: white;
+    font-size: 20px;
+}
+
+.app_div small{
+    color: white;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.cradit_score{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient( #536CD8, #837FF0 ) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.cradit_score_text{
+    padding: 40px 0 0 50px;
+}
+
+.cradit_score small{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+.cradit_score p{
+    color: white;
+    font-size: 20px;
+}
+
+.tracking_tool{
+    margin-right: 20px;
+    background: linear-gradient( #FBC03C, #FFDC88 ) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.tracking_tool_text{
+    padding: 40px 0 0 50px;
+}
+
+.tracking_tool small{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+.tracking_tool p{
+    color: white;
+    font-size: 20px;
+}
+
+.money_div{
+    margin-right: 20px;
+    background: linear-gradient( #FB7E55, #FCA388 ) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.money_div_text{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.money_div p{
+    color: white;
+    font-size: 20px;
+}
+
+.money_div small{
+    color: white;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.contact_us{
+    background-color: rgb(253, 247, 247);
+    padding: 100px 0 !important;
+}
+
+.contact_us p{
+    font-size: 2rem;
+    color: #081169;
+    font-weight: 300;
+}
+
+.contact_us small,
+.business_text small{
+    display: block;
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.business_text{
+    padding: 100px 20px;
+}
+.business_text small{
+    font-size: 12px;
+}
+.business_text p{
+    font-size: 1.5rem;
+    color: #081169;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.business_text2{
+    padding: 120px 20px 20px 20px;
+}
+.business_text2 small{
+    display: block;
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.business_text2 p{
+    color: #081169;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.card{
+    border: none;
+}
+.cards_bg{
+    background: linear-gradient( #e7e7e7, #e7e7e7 );
+}
+
+.financial_text{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0 !important;
+}
+
+.financial_text p{
+    padding-top: 40px;
+    font-size: 1.5rem;
+    color: #081169;
+    font-weight: 400;
+}
+
+.cards_4 i{
+    background-color: #34344e;
+}
+
+.cards_4 p{
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.cards_4 small{
+    color: rgb(146, 146, 146);  
+    font-size: 12px;  
+}
+
+.cards_container{
+    background-color: #34344e;
+    padding: 40px 0;
+    border-radius: 5px;
+    box-shadow:1px 1px 15px #34344e;
+}
+
+.client_text{
+    background-color: rgb(245, 249, 255);
+    padding: 50px 0 !important;
+}
+
+.client_text p{
+    font-size: 1.9rem;
+    color: #081169;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.ready_text{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0 !important;
+}
+.ready_text p{
+    padding-top: 40px;
+    font-size: 1.9rem;
+    color: #081169;
+    font-weight: 400;
+}
+
+.buttons2{
+    padding: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        background: #000000 !important;
+    }
+
+    .navbar-brand{
+        position: relative;
+        left: 0%;
+    }
+
+    li{
+        padding-left: 10px;
+    }
+
+   .fa-shopping-cart{
+        margin-top: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .rounded-3{
+        margin-top: 15px !important;
+        position: relative;
+        left: 0%;
+    }
+
+    .fa-search{
+    padding-left: 0px !important;
+    }
+
+    .div2_text{
+        padding: 100px 50px 100px 50px;
+        text-align: center;
+    }
+
+    .div2_img1{
+        position:relative;
+        top: -40%;
+        left: 0%;
+    }
+    
+    .div2_img2{
+        position: relative;
+        top: 20%;
+    }
+
+    .div3_box{
+        padding: 100px 20px 0 20px !important; 
+    }
+   
+    .div3_text{ 
+        text-align: center;
+        padding: 100px 30px;
+    }
+    
+    .list-group-item{
+        width: 100%;
+    }
+
+    .box2{
+        margin-left: 0;
+    }
+    .projects {
+        padding: 60px 0 60px 0px !important;
+        text-align: center;
+    }
+    .card text-white bg-primary mb-0{
+        left: 20px;
+
+    }
+    
+    .cradit_score{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .cradit_score_img,
+    .tracking_tool_img,
+    .money_img{
+        width: 100%;
+    }
+
+    .cradit_score_text,
+    .money_div_text,
+    .tracking_tool_text{
+        padding: 30px 0 0 30px;
+    }
+
+    .app_div_text{
+        padding-left: 10px;
+    }
+
+    .money_img{
+        margin: 0;
+    }
+    .app_div{
+        margin-right: 20px;
+    }
+
+    .business_text{
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .business_text2{
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+    }
+    .btn1{
+        display: block;
+        position: relative;
+        left: 20%;
+    }
+    .buttons2 span{
+        display: block;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .div2_text{
+        padding: 100px 0px 100px 150px;
+    }
+
+    .div3_box{
+        padding: 100px 20px 0 50px !important; 
+    }
+
+    .div3_text{
+        padding: 100px 100px 100px 0;
+    }
+
+    .list-group-item{
+        width: 300px;
+    }
+
+    .cradit_score_img,
+    .tracking_tool_img,
+    .money_img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-brand{
+        position: relative;
+        right: -10vw;
+    }
+}
