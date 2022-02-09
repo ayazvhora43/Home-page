@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="main_div">
+        <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="navbar_container container">
+                <a class="navbar-brand m-0" href="#"> <img src="images/logo.png" alt="" width="33px" height="33px">
+                    <b>UNI</b><span style="font-weight: lighter;">CORP</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars" style="color: #2474B9; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about_us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-link fa fa-shopping-cart p-0" style="font-size: 14px; margin-left:10px"
+                                aria-hidden="true">
+                                <span class="badge rounded-pill bg-success">2</span>
+                            </i>
+                            <i id="search_" class="nav-link fa fa-search py-2 p-0" style="font-size: 16px;"
+                                aria-hidden="true"></i>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button"
+                                class="nav-link btn-primary contact_us_btn border border-0 rounded-3">Contact
+                                Us</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item item1 active text-center" data-bs-interval="5000">
+                    <div class="img_text">
+                        <small>SPECIALIZING IN CORPORATE FINANCE</small>
+                        <p>We are always ready <br>
+                            to assist <span style="font-weight: 900;">our clients</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item item2 text-center" data-bs-interval="2000">
+                    <div class="img_text">
+                        <small>SPECIALIZING IN CORPORATE FINANCE</small>
+                        <p>We are always ready <br>
+                            to assist <span style="font-weight: 900;">our clients</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item item3 text-center">
+                    <div class="img_text">
+                        <small>SPECIALIZING IN CORPORATE FINANCE</small>
+                        <p>We are always ready <br>
+                            to assist <span style="font-weight: 900;">our clients</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container mt-5 p-0">
+        <div class="row div2 w-100 m-0">
+            <div class="div2_text col-md-6 col-sm-6 p-5">
+                <small>WE HAVE IN-HOUSE SPECIALISTS FOR EACH FIELD _______</small>
+                <span class="div2_heading">An independent consulting firm</span>
+                <p>We are specialised in accountancy, tax and legal advice and
+                    corporate finance. We have committed in-house experts in each of
+                    these fields who work together on a continuous basis. We always
+                    start by analysing a problem from several points of view.
+                </p>
+                <p>This multidisciplinary approach is a major benefit for our clients
+                    who have a single point of contact to oversee the entire product
+                    and coordinate all of its aspects.
+                </p>
+                <button type="button" class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <img class="div2_img2" src="images/div_2_img1.jpeg" width="210" height="300" alt="">
+                <img class="div2_img1" src="images/div_2_img2.jpeg" width="210" height="300" alt="">
+            </div>
+
+            <div class="trusted_text text-center pt-5">
+                <small>TRUSTED BY THOUSANDS OF DIVERSE COMPANIES</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center mb-5">
+            <div id="recipeCarousel" class="carousel carousel2 slide" data-bs-ride="carousel">
+                <div class="carousel-inner carousel2-inner" role="listbox">
+                    <div class="carousel-item carousel2-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/div_2_logo4.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel2-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/div_2_logo4.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel2-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/div_2_logo4.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel2-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/div_2_logo4.png" class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="div3">
+        <div class="container">
+            <div class="row m-0">
+                <div class=" div3_box col-lg-6 col-md-6 my-5 px-2">
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center p-2">
+                        <div class="icons">
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                        </div>
+                        <div class="icons_text">
+                            <small style="color: blue !important;" class="text-muted">Accountancy</small>
+                            <h6 class="my-1" style="color: rgb(34, 24, 90) !important;">Your accounts are the starting
+                                point
+                            </h6>
+                        </div>
+                    </a>
+                    <a href="#" class="box2 list-group-item list-group-item-action d-flex justify-content-center p-2">
+                        <div class="icons">
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                        </div>
+                        <div class="icons_text">
+                            <small style="color: rgb(250, 126, 10) !important;" class="text-muted">Corporte
+                                finance</small>
+                            <h6 class="my-1" style="color: rgb(34, 24, 90) !important;">As advisers, we want to go to
+                                extra
+                                mile
+                            </h6>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center p-2">
+                        <div class="icons">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="icons_text">
+                            <small style="color: rgb(58, 255, 124) !important;" class="text-muted">Text & legal</small>
+                            <h6 class="my-1" style="color: rgb(34, 24, 90) !important;">The Tax department focus on tax
+                                law
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="div3_text col-lg-6 col-md-6 p-5">
+                    <small>OUR CORPORATE FINANCE TEAM IS YOUR PARTNER_______</small>
+                    <span class="div3_heading">We want to contribute to the creation of value</span>
+                    <p>We assist you in selling your <a href="#" style="color:rgb(34, 24, 90);">business</a> ,with
+                        <a href="#" style="color:rgb(34, 24, 90);">acquisitions,</a>
+                        <a href="#" style="color:rgb(34, 24, 90);">financial operations and investments.</a>
+                        We offer strategic financial advice and act as a sounding board for entrepreneurs
+                        and management boards. Knowledge and experience, independence and commitment, a board
+                        vision and criticalrigor are our strengths.
+                    </p>
+                    <p> We want to stand by your side when crucial decisions are made. Our
+                        corporate Finance team is this partner.
+                    </p>
+                    <button type="button" class="btn btn-primary">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="projects row w-100 py-5 m-0">
+            <div class="col-md-1"></div>
+            <div class="col-12 col-md-7 d-flex flex-column justify-content-center px-5">
+                <small>WE'VE EXECUTED MORE THAN 200 PROJECTS OVER THE LAST 30 YEARS__________</small>
+                <P>Discover our featured projects</P>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <a href="#" style="text-decoration: none">
+                    View all projects
+                    <i class="fa fa-arrow-right" style="color: #2474B9; font-size:20px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row w-100 m-0">
+            <div class="col-md-1 col-lg-1"></div>
+            <div class="app_div col-md-4 col-lg-4 p-0 mb-3">
+                <img src="images/mobile_app.png" alt="" width="250" height="350"
+                    style="padding-left: 50px; padding-top: 40px;">
+                <div class="app_div_text">
+                    <p>The Personal Finance App</p>
+                    <small>Unicorp is one of the most popular apps </small>
+                    <small> in the personal finance space.</small>
+                    <i class="fa fa-arrow-right" style="color: #ffffff; font-size:20px;"></i>
+                </div>
+            </div>
+            <div class="cradit_score col-md-5 col-lg-6 mb-3">
+                <div class="cradit_score_text">
+                    <p>View Your Cradit Score</p>
+                    <small>Unicorp is one of the most popular apps </small>
+                    <small> in the personal finance space.</small>
+                    <i class="fa fa-arrow-right" style="color: #ffffff; font-size:20px;"></i>
+                </div>
+                <img src="images/cradit_score.png" alt="" width="500" height="370" class="cradit_score_img">
+            </div>
+            <div class="col-md-1 col-lg-1"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row w-100 m-0 mb-5">
+            <div class="col-md-1 col-lg-1"></div>
+            <div class="tracking_tool col-md-5 col-lg-6 mb-3">
+                <div class="tracking_tool_text">
+                    <p>Cryptocurrency Tracking Tool</p>
+                    <small>Unicorp is one of the most popular apps </small>
+                    <small> in the personal finance space.</small>
+                    <i class="fa fa-arrow-right" style="color: #ffffff; font-size:20px;"></i>
+                </div>
+                <img src="images/crypto.png" alt="" width="500" height="370" class="tracking_tool_img">
+            </div>
+            <div class="money_div col-md-4 col-lg-4 p-0 mb-3">
+                <div class="money_div_text">
+                    <p>Total Control of Your Money </p>
+                    <small>Unicorp is one of the most popular apps </small>
+                    <small> in the personal finance space.</small>
+                    <i class="fa fa-arrow-right" style="color: #ffffff; font-size:20px;"></i>
+                </div>
+                <img src="images/money.png" alt="" width="300" height="300" class="money_img"
+                    style="padding-left: 50px; padding-top: 40px;">
+            </div>
+            <div class="col-md-1 col-lg-1"></div>
+        </div>
+    </div>
+
+    <div class="contact_us">
+        <div class="container w-100 text-center">
+            <p>We help our clients think big and grow</p>
+            <small>We're supporting the finance industry with an extensive range of solutions</small>
+            <small>to meet ever-incresing digital and customer expectations</small>
+            <button type="button" class="btn btn-primary" style="margin-top: 40px;">Contact Us</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row w-100 m-0 my-5">
+            <div class="col-md-0 col-lg-1"></div>
+            <div class="business_text col-md-6 col-lg-5">
+                <small>FUTURE-PROOFING ASSET MANAGEMENT AND BEYOND________</small>
+                <P>How can we help your business progress?</P>
+            </div>
+            <div class="business_text2 col-md-6 col-lg-4 my-4">
+                <small>From blockchain to cybersecurity, we help our clients think big -- and deliver even bigger in
+                    digital
+                    age.
+                    We will work alogn side you as we develop Corporate strategy, organic growth, portfolio strategy,
+                    pricing and profitability,
+                    share holder value strategy, and strategic planning.
+                </small>
+                <p class="m-0">About Us</p>
+                <i class="fa fa-arrow-right" style="color: #081169; font-size:15px;"></i>
+            </div>
+            <div class="col-md-0 col-lg-2"></div>
+        </div>
+    </div>
+
+    <div class="cards_bg">
+        <div class="container">
+            <div class="row w-100 g-4 py-5 m-0">
+                <div class="col-md-0 col-lg-1"></div>
+                <div class="col-md-12 col-lg-10">
+                    <div class="row">
+                        <div class="col-md-4 my-3">
+                            <div class="card h-100 ">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color:#4B83FC; padding: 15px 0;">Business Strategy
+                                    </h5>
+                                    <p class="card-text" style="font-size:14px; color:rgb(168, 168, 168)">Our people
+                                        drive
+                                        our
+                                        vision and success because they undertand the industry and they have the
+                                        experience
+                                        to
+                                        provide a first class service to our clients' customers.</p>
+                                </div>
+                                <div class="card-footer bg-white py-4">
+                                    <small class="text-muted"> <b>Learn More</b> </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title" style=" color:#FE8567; padding: 15px 0;">Financial Planning
+                                    </h5>
+                                    <p class="card-text" style="font-size:14px; color:rgb(168, 168, 168)">Our people
+                                        drive
+                                        our
+                                        vision and success because they undertand the industry and they have the
+                                        experience
+                                        to
+                                        provide a first class service to our clients' customers.</p>
+                                </div>
+                                <div class="card-footer bg-white py-4">
+                                    <small class="text-muted"> <b>Learn More</b> </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title" style=" color:#9BC85A; padding: 15px 0;">Life and Pension
+                                    </h5>
+                                    <p class="card-text" style="font-size:14px; color:rgb(168, 168, 168)">Our people
+                                        drive
+                                        our
+                                        vision and success because they undertand the industry and they have the
+                                        experience
+                                        to
+                                        provide a first class service to our clients' customers.</p>
+                                </div>
+                                <div class="card-footer bg-white py-4">
+                                    <small class="text-muted"> <b> Learn More</b></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-0 col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-100 financial_text text-center">
+        <small style="color:rgb(87, 87, 248); font-size: 12px">ESTABLISHING GOOD FINANCIAL PROCEDURES AND
+            SYSTEMS</small>
+        <p>Developing financial processes and <br> procedures</p>
+    </div>
+
+    <div class="container">
+        <div class="row w-100 m-0 mb-5">
+            <div class="col-md-0 col-lg-1"></div>
+            <div class="row col-md-12 col-lg-10 cards_container py-2 m-0">
+                <div class="col-md-3 mb-3 py-2 p-0">
+                    <div class="cards_4 text-center px-2" style="border-right: 1px solid rgb(102, 101, 101);">
+                        <i class="fab fa-telegram" style=" color: rgb(96, 197, 255); font-size: 40px;"
+                            aria-hidden="true"></i>
+                        <p>Bank Account</p>
+                        <small>Sound financial processes are the backbone of a financially viable organization.</small>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 py-2 p-0">
+                    <div class="cards_4 text-center px-2" style="border-right: 1px solid rgb(102, 101, 101);">
+                        <i class="fa fa-money" style=" color: rgb(96, 197, 255); font-size: 40px;"
+                            aria-hidden="true"></i>
+                        <p>Creating a budget</p>
+                        <small>Sound financial processes are the backbone of a financially viable organization.</small>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 py-2 p-0">
+                    <div class="cards_4 text-center px-2" style="border-right: 1px solid rgb(102, 101, 101);">
+                        <i class="fa fa-briefcase" style=" color: rgb(96, 197, 255); font-size: 40px;"
+                            aria-hidden="true"></i>
+                        <p>Strategic planning</p>
+                        <small>Sound financial processes are the backbone of a financially viable organization.</small>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 py-2 p-0">
+                    <div class="cards_4 text-center px-2">
+                        <i class="fab fa-leanpub" style=" color: rgb(96, 197, 255); font-size: 40px;"
+                            aria-hidden="true"></i>
+                        <p>Finanical close</p>
+                        <small class=" py-3">Sound financial processes are the backbone of a financially viable
+                            organization.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-0 col-lg-1"></div>
+        </div>
+    </div>
+
+    <div class="client_text">
+        <div class="container">
+            <div class="w-100 text-center">
+                <p>See what our clients are saying about us</p>
+                <small class="px-4" style="color:rgb(170, 170, 170); font-size: 14px;">I could not ask for more a
+                    financial
+                    adivisor. I wish i had met you many years ago. <br>
+                    Your ability to take complicated subjects and express them in plain simple language is<br>
+                    refreshing, helpful and is a rare skill. I am thankful to you for providing excellent <br>
+                    advisory services.</small>
+                <br><br>
+                <small style="color:rgb(170, 170, 170); font-size: 14px">________ <span
+                        style="color:#081169; font-weight: bold;">Thomas Smith </span> CEO & CoFounder</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="ready_text">
+        <div class="container">
+            <div class="w-100 text-center">
+                <p>Ready to get started?</p>
+                <small style="color:rgb(161, 161, 161); font-size: 14px">We want to talk to you. Signing up is quick and
+                    easy.</small>
+                <div class="buttons2">
+                    <button type="button" class="btn btn-primary btn1"
+                        style="font-size: 14px; padding: 10px 30px;">Discover
+                        Now</button>
+                    <span style="color:rgb(161, 161, 161); font-size: 14px; padding: 0 10px;"> or</span>
+                    <button type="button" class="btn btn-primary"
+                        style="color: blue; background-color:rgb(195, 226, 255); font-size: 14px; padding: 10px 30px; border: none;">Get
+                        a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer pt-5">
+        <div class="container bottom_border pb-5">
+            <div class="row">
+                <div class="footer_info scol-sm-3 col-md col-sm-4  col-12 col">
+                    <h6 class="col_white_heading pt2">UNICORP</h6>
+                    <p>112W 34th St, New york.</p>
+                    <p style="color: #4dcc42;">(+1) 212-946-2707</p>
+                    <p>info@unicorp.com</p>
+                    <i class="fab fa-twitter-square"
+                        style="font-size: 20px; padding: 10px 10px 0 0; color:#cfcfcf;"></i>
+                    <i class="fab fa-facebook-square"
+                        style="font-size: 20px; padding: 10px 10px 0 0; color:#cfcfcf;"></i>
+                    <i class="fab fa-whatsapp-square"
+                        style="font-size: 20px; padding: 10px 10px 0 0; color:#cfcfcf;"></i>
+                </div>
+
+                <div class="useful_links col-sm-3 col-md  col-6 col-12">
+                    <h6 class="col_white_heading pt2">USEFUL LINKS</h6>
+                    <ul class="footer_ul_" style="display: block;">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="products_ col-sm-3 col-md  col-6 col-12">
+                    <h6 class=" col_white_heading pt2">PRODUCTS</h6>
+                    <ul class="footer_ul_" style="display: block;">
+                        <li><a href="#">Apps</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Request a Demo</a></li>
+                    </ul>
+                </div>
+
+                <div class="resources col-sm-3 col-md  col-6 col-12">
+                    <h6 class="col_white_heading pt2">RESOURCES</h6>
+                    <ul class="footer_ul_" style="display: block;">
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Become a partner</a></li>
+                        <li><a href="#">Help Desk</a></li>
+                        <li><a href="#">Uptime</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter col-sm-4 col-md  col-12 col-12">
+                    <h6 class="headin5_amrc col_white_heading pt2">NEWSLETTER</h6>
+                    <ul class="footer_ul2_" style="display: block;">
+                        <li>
+                            <p>Get everything you need to succeed!</p>
+                        </li>
+                    </ul>
+                    <div class="input-group my-3">
+                        <input type="text" class="form-control rounded-0" placeholder="Enter your email"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn rounded-0" style="background-color: #4dcc42;" type="button"
+                            id="button-addon2"><i class="fas fa-share"
+                                style="font-size:28px; color:aliceblue"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center pb-5">
+            <p class="float-start">@2020 Unicorp by Viwarx-Co. All Rights Reserved.</p>
+            <ul class="footer_bottom_ul_ text-center" style="display: block;">
+                <li id="sitemap" style="float: right;"><a href="#">Sitemap</a></li>
+                <li style="float: right;"><a href="#">Privacy</a></li>
+                <li style="float: right;"><a href="#">Terms of use</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                document.getElementById("navbar").style.background = "rgba(0, 0, 0)";
+                document.getElementById("navbar").style.transition = "1s";
+            } else {
+                document.getElementById("navbar").style.background = "transparent";
+                document.getElementById("navbar").style.transition = "1s";
+            }
+        }
+        
+        let items = document.querySelectorAll('.carousel2 .carousel2-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
