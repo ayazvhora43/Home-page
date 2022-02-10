@@ -1,0 +1,532 @@
+.item1{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/about_us1.webp") no-repeat;
+}
+.item2{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/about_us2.jpg") no-repeat;
+}
+.item3{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/about_us3.jpg") no-repeat;   
+}
+.item1,.item2,.item3{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    width: 100%;
+    justify-content: center;
+}
+.navbar{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.144);
+    position: fixed;
+    width: 100%;
+}
+.navbar_container {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.navbar-brand{ 
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 20%;
+}
+.nav-link{
+    font-size: 12px;
+    color: rgb(255, 255, 255) !important;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: white;
+    background: linear-gradient( rgba(255, 255, 255, 0.144), rgba(255, 255, 255, 0.13) );
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact_us_btn{
+    position: absolute;
+    right: 16%;
+}
+.rounded-3{
+    font-size: 13px;
+    border-radius: 12px;
+    background: linear-gradient( rgba(255, 255, 255, 0.144), rgba(255, 255, 255, 0.13) );
+    padding: 8px 24px !important;
+    outline: none;
+    box-shadow: none;
+} 
+.badge{
+    font-size: 10px;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+.dropdown-item{
+    color: white;
+    font-size: 14px
+}
+.dropdown-item:hover{
+    background: linear-gradient( rgba(255, 255, 255, 0.144), rgba(255, 255, 255, 0.13) );
+    font-weight: bold;
+    color: white;
+}
+.img_text{
+    height: 100%;
+    position:absolute;
+    top: 22%;
+    left:20%
+}
+.img_text p{
+    font-weight:light;
+    font-size: 3em;
+    color: white;
+} 
+.img_text small{
+    color: white;
+    display: block;
+    font-size: 12px;
+}
+
+.business_text small,
+.experience2_text small{
+    display: block;
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.experience2_text small{
+    padding-right: 60px;
+}
+.business_text1,
+.experience2_text p{
+    font-size: 1.5rem;
+    color: #081169;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.business_small{
+    display: block;
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.business_text2 p{
+    color: #5f5f5f;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.about_us_txt{
+    position: absolute;
+    bottom: 0;right: 0;
+}
+
+.card{
+    border: none;
+    box-shadow: 2px 2px 20px #c4c4c4;
+}
+.cards_bg{
+    background: linear-gradient( #ffffff, #ffffff );
+}
+
+.digital_text small,
+.experience_text small{
+    font-size: 11px;
+    display: block;
+    color:rgb(163, 163, 163);
+}
+.digital_text p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px 10px 0 0;
+}
+.digital_text2 small{
+    display: block;
+    font-size: 12px;
+    color:rgb(163, 163, 163);
+}
+.digital_text2 p{
+    color: #ffffff;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.contact2_us small{
+    padding-bottom:20px;
+    padding-right: 100px;
+}
+.services_ small{
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.icons .fa{
+    font-size: 18px;
+    padding: 15px ;
+    margin: 10px 0 5px 10px ;
+    background-color: rgb(205, 253, 255);
+    border-radius: 50%;
+}
+
+.contact_us{
+    background-color: rgb(246, 253, 255);
+    padding: 30px 0 !important;
+}
+.contact_us p{
+    font-size: 2rem;
+    color: #0c146d;
+    font-weight: 400;
+}
+.contact_us small{
+    display: block;
+    font-size: 14px;
+    color:rgb(163, 163, 163);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.prices_bg{
+    background: linear-gradient( rgb(246, 253, 255), rgb(246, 253, 255));
+}
+.price_info small{
+    padding-bottom: 8px;
+}
+.purchase_btn1{
+    background: rgb(14, 194, 14);
+    box-shadow:1px 1px 2px #c4c4c4;
+    border: none;
+}
+.purchase_btn2{
+    color: rgb(14, 194, 14);
+    background: #fff;
+    box-shadow:1px 1px 2px #c4c4c4;
+    border: 1px solid rgb(14, 194, 14);
+}
+.client1,.client2,.client3{
+    background-color:rgb(246, 253, 255);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.client1 h5,.client2 h5,.client3 h5,
+.client1 p, .client2 p, .client3 p{
+    color: black;
+}
+.slide_text span{
+    font-weight: 300;
+    color: #000000;
+}
+.prev,
+.next{
+    background-color:#000000;
+}
+.customers_text{
+    font-size: 24px;
+    color: #081169;
+    background-color: rgb(246, 253, 255);
+}
+.slide_text{
+    text-align: center;
+    position: relative;
+    top:40%;
+}
+
+.slide_text p{
+    color: #081169;
+    font-size: 20px;
+    font-weight: 500;
+}
+.slide_text small{
+    display: block;
+    color: #979797;
+    font-size: 14px;
+}
+.current{
+    background-color:rgba(255, 255, 255, 0.144);
+}
+
+footer { 
+    width:100%;
+    background-color:#34344e;
+    min-height:250px;
+    padding:10px 0px 5px 0px ;
+}
+.col_white_heading {
+    color:#FFF;
+}
+.pt2 { 
+    padding-top:40px ; 
+    margin-bottom:20px ;
+}
+footer p { 
+    font-size:13px; 
+    color:#CCC;
+    padding-bottom:0px; 
+    margin-bottom:8px;
+}
+.footer_ul_ { 
+    margin:0px ; 
+    list-style-type:none ; 
+    font-size:14px; 
+    padding:0px 0px 10px 0px ; 
+}
+.footer_ul_ li {
+    padding:0px 0px 5px 0px;
+}
+.footer_ul_ li a{
+    color:rgb(185, 185, 185);
+    text-decoration:none;
+}
+.footer_ul_ li a:hover{ 
+    color:#fff;
+}
+.footer_ul2_ {
+    margin:0px;
+    list-style-type:none; 
+    padding:0px;
+}
+.footer_ul2_ li p { 
+    display:table;
+    color: #fff;
+    font-size: 12px;
+}
+.footer_ul2_ li a {
+    text-decoration:none;
+}
+.footer_ul2_ li i { 
+    margin-top:5px;
+}
+.bottom_border { 
+    border-bottom:1px solid rgba(255, 255, 255, 0.144);
+    padding-bottom:20px;
+}
+.footer_bottom_ul_ {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto
+}
+.footer_bottom_ul_ li { 
+     display:inline;
+}
+.footer_bottom_ul_ li a {
+    color:#999;
+    margin:0 15px;
+    text-decoration:none;
+    font-size: 12px;
+}   
+.social_footer_ul { 
+    display:table; 
+    margin:15px auto 0 auto;
+    list-style-type:none; 
+}
+.social_footer_ul li { 
+    padding-left:20px;
+    padding-top:10px; 
+    float:left;
+}
+.social_footer_ul li a { 
+    color:#CCC; 
+    border:1px solid #CCC;
+    padding:8px;
+    border-radius:50%;
+}
+.social_footer_ul li i { 
+     width:20px; 
+     height:20px; text-align:center;
+}
+.badge{
+    position: relative;
+    top: -15px;
+    right: 15px;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background: rgb(14, 194, 14);
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        background: #000000 !important;
+    }
+    .navbar-brand{
+        position: absolute;
+        left:0% !important;
+    }
+    .rounded-3{
+        margin-top: 15px !important;
+        position: relative;
+        left: 0%;
+    }
+    .img_text{
+        height: 100%;
+        position:absolute;
+        top: 30%;
+        left:10%
+    }
+    .img_text p{
+        font-size: 1.8em;
+    }
+    .footer_info,
+    .useful_links,
+    .products_,
+    .resources,
+    .newsletter{
+        text-align: center;
+    }
+    #sitemap{
+        padding-right: 15px;
+    }
+    #search_{
+        position: relative;
+        left: 6%;
+    }
+    .badge{
+        position: relative;
+        top: -15px;
+        right: 15px;
+        padding: 3px 8px;
+        border-radius: 50%;
+        background: rgb(14, 194, 14);
+        color: white;
+    }
+    .about_us_txt{
+        position: absolute;
+        top :20%;
+        left: 5% !important;
+    }
+    .experience2_text{
+        padding: 20px 20px 0 20px!important;        
+    }
+    .experience2_text small{
+        padding-right: 0 !important;
+    }
+    .services_ {
+        position: static;
+    }
+    .services_div{
+        position: static !important;
+    }
+    .yearly{
+        font-size: 14px !important;
+    }
+    .monthly{
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .navbar-brand{
+        position: relative;
+        left: 0%;
+    }
+    .contact_us_btn{
+        position: absolute;
+        right: 8%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-brand{
+        position: relative;
+        left: 10%;
+    } 
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel2-inner .carousel-item.active,
+.carousel2-inner .carousel-item-next,
+.carousel2-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel2-inner .carousel-item-end.active,
+    .carousel2-inner .carousel-item-next {
+      transform: translateX(33%);
+    }
+    
+    .carousel2-inner .carousel-item-start.active, 
+    .carousel2-inner .carousel-item-prev {
+      transform: translateX(-33%);
+    }
+}
+
+.carousel2-inner .carousel-item-end,
+.carousel2-inner .carousel-item-start { 
+  transform: translateX(0);
+}
